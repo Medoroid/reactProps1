@@ -1,15 +1,10 @@
 import React, { useEffect, useState } from 'react'
 // import style from 'Child.module.css'
-export default function Child({username}) {
-    const [count, setcount] = useState(0)
-    useEffect(()=>{
-        
-    },[])
-console.log(username)
+export default function Child(props) {
+const {username , job , gender , age} = props
+console.log(props.username)
   return <>
   <h3>{username}</h3>
-  <h3>{}</h3>
-  <h3>{}</h3>
-  <h3>{}</h3>
+
   </>
 }

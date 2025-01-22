@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 // import style from 'Portfolio.module.css'
-import Child from '../Child/child'
+import Child from '../Child/Child'
 import img1 from '../../assets/imgs/slider-1.jpg'
 import img2 from '../../assets/imgs/slider-2.jpg'
 import img3 from '../../assets/imgs/slider-3.jpg'
@@ -26,7 +26,7 @@ export default function Portfolio() {
     <div className="container mx-auto">
       <div className="gallryRow grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2">
       {/* {user.map((element)=>{return <Child userData={user}></Child>})} */}
-      <Child username={user.username}></Child>
+      <Child username={user}></Child>
       
       </div>
     </div>

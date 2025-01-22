@@ -3,11 +3,11 @@
 // import viteLogo from '/vite.svg'
 import Layout from './componients/Layout/Layout'
 import About from './componients/About/About'
-import Portfolio from './componients/Portfolio/portfolio'
+import Portfolio from './componients/Portfolio/Portfolio'
 import Contact from './componients/Contact/Contact'
 import Home from './componients/Home/Home'
 import './App.css'
-import Child from './componients/Child/child'
+import Child from './componients/Child/Child'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { useState } from 'react'
 
