@@ -19,6 +19,7 @@ let routs = createBrowserRouter([
     {index:true , element:<Home></Home>},
     {path:'About' , element:<About></About>},
     {path:'Portfolio', element:<Portfolio ></Portfolio>},
+
     {path:'Contact', element:<Contact></Contact>}
   ]}
 ])

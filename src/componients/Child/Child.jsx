@@ -1,10 +1,14 @@
 import React, { useEffect, useState } from 'react'
+export default function Child(users ,func ) {
 // import style from 'Child.module.css'
-export default function Child(props) {
-const {username , job , gender , age} = props
-console.log(props.username)
-  return <>
-  <h3>{username}</h3>
 
-  </>
+console.log(users)
+  return (
+    <div style={{ border: '1px solid #ccc', padding: '10px', margin: '10px', borderRadius: '5px' }}>
+      <h3>Username: {users.username}</h3>
+      <p>Job: {users.job}</p>
+      <p>Age: {users.age}</p>
+      <button className='bg-red-400 p-1' onClick={func}><i className=' fa-trash-can text-black'></i>del</button>
+    </div>
+  );
 }
